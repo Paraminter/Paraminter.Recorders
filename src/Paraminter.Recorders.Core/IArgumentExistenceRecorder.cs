@@ -1,4 +1,4 @@
-﻿namespace Paraminter;
+﻿namespace Paraminter.Recorders;
 
 /// <summary>Records the existence of arguments of parameters.</summary>
 /// <typeparam name="TParameter">The type representing the parameters.</typeparam>

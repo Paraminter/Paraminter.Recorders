@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
 
-        <RootNamespace>Paraminter</RootNamespace>
+        <RootNamespace>Paraminter.Recorders</RootNamespace>
 
         <Title>Paraminter.Recorders.Core</Title>
         <Description>Defines the core components of Paraminter recorders.</Description>

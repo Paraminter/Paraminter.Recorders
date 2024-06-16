@@ -11,20 +11,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Recorders.Core", "src\Paraminter.Recorders.Core\Paraminter.Recorders.Core.csproj", "{C96C651F-E9D1-4A2C-9271-2A89009DCF9E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84607529-5E49-4BA6-8058-B4A917E47B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{4AF1E84D-0E1A-4C60-9836-874C9203A893}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF1E84D-0E1A-4C60-9836-874C9203A893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF1E84D-0E1A-4C60-9836-874C9203A893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF1E84D-0E1A-4C60-9836-874C9203A893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF1E84D-0E1A-4C60-9836-874C9203A893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C96C651F-E9D1-4A2C-9271-2A89009DCF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C96C651F-E9D1-4A2C-9271-2A89009DCF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C96C651F-E9D1-4A2C-9271-2A89009DCF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C96C651F-E9D1-4A2C-9271-2A89009DCF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	GlobalSection(NestedProjects) = preSolution
+		{4AF1E84D-0E1A-4C60-9836-874C9203A893} = {84607529-5E49-4BA6-8058-B4A917E47B7D}
 	EndGlobalSection
 EndGlobal

@@ -1,11 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
-
-        <RootNamespace>Paraminter.Recorders</RootNamespace>
-
-        <Title>Paraminter.Recorders.Core</Title>
+        <PackageId>Paraminter.Recorders.Core</PackageId>
         <Description>Defines the core components of Paraminter recorders.</Description>
     </PropertyGroup>
 

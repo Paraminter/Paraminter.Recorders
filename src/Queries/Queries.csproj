@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Paraminter.Recorders.Queries</AssemblyName>
+        
+        <PackageId>Paraminter.Recorders.Queries</PackageId>
+        <Description>Provides queries related to Paraminter recorders.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Paraminter.Queries.Core" />
+    </ItemGroup>
+
+</Project>

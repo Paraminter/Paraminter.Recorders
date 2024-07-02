@@ -1,5 +1,5 @@
-# Paraminter.Recorders.Core
+# Paraminter.Recorders.Commands
 
-Defines the core components of `Paraminter` recorders.
+Provides commands related to `Paraminter` recorders.
 
 See [GitHub](https://github.com/Paraminter/Paraminter.Recorders) for more information.

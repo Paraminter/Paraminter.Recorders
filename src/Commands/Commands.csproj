@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Paraminter.Recorders.Commands</AssemblyName>
+        
+        <PackageId>Paraminter.Recorders.Commands</PackageId>
+        <Description>Provides commands related to Paraminter recorders.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Paraminter.Commands.Core" />
+    </ItemGroup>
+
+</Project>

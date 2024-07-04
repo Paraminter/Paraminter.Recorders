@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Paraminter.Recorders.Abstractions</AssemblyName>
+        
+        <PackageId>Paraminter.Recorders.Abstractions</PackageId>
+        <Description>Provides abstractions of services related to Paraminter recorders.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="$(SolutionDir)\src\Commands\Commands.csproj" />
+    </ItemGroup>
+
+</Project>

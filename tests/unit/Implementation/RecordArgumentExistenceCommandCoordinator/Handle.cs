@@ -31,10 +31,10 @@ public sealed class Handle
         fixture.DelegatingCoordinatorMock.Verify((coordinator) => coordinator.Handle(It.Is(MatchCommandCreationDelegate(parameter))), Times.Once);
     }
 
-    private static Expression<Func<DCreateCommand<IRecordArgumentExistenceCommand<object>, IRecordArgumentExistenceCommandFactory>, bool>> MatchCommandCreationDelegate(
-        object parameter)
+    private static Expression<Func<DCreateCommand<IRecordArgumentExistenceCommand<object>, IRecordArgumentExistenceCommandFactory>, bool>> MatchCommandCreationDelegate<TParameter>(
+        TParameter parameter)
     {
-        return (commandCreationDelegate) => VerifyCommandCreationDelegate(commandCreationDelegate, parameter);
+        return (commandCreationDelegate) => VerifyCommandCreationDelegate(commandCreationDelegate, parameter!);
     }
 
     private static bool VerifyCommandCreationDelegate<TParameter>(

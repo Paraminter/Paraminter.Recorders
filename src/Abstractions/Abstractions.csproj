@@ -8,6 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Paraminter.Commands.Abstractions" />
+
         <ProjectReference Include="$(SolutionDir)\src\Commands\Commands.csproj" />
     </ItemGroup>
 

@@ -39,7 +39,14 @@ public sealed class Handle
 
         Target(fixture, parameter, argumentData);
 
-        fixture.DelegatingCoordinatorMock.Verify((coordinator) => coordinator.Handle(It.Is(MatchCommandCreationDelegate(parameter, argumentData))), Times.Once);
+        fixture.DelegatingCoordinatorMock.Verify(CoordinatorExpression(parameter, argumentData), Times.Once);
+    }
+
+    private static Expression<Action<ICommandCoordinator<IRecordArgumentDataCommand<TParameter, TArgumentData>, IRecordArgumentDataCommandFactory>>> CoordinatorExpression<TParameter, TArgumentData>(
+        TParameter parameter,
+        TArgumentData argumentData)
+    {
+        return (coordinator) => coordinator.Handle(It.Is(MatchCommandCreationDelegate(parameter, argumentData)));
     }
 
     private static Expression<Func<DCreateCommand<IRecordArgumentDataCommand<TParameter, TArgumentData>, IRecordArgumentDataCommandFactory>, bool>> MatchCommandCreationDelegate<TParameter, TArgumentData>(

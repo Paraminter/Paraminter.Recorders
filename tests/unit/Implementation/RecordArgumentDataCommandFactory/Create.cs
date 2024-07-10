@@ -27,7 +27,7 @@ public sealed class Create
     }
 
     [Fact]
-    public void ValidArguments_ReturnsRepresentation()
+    public void ValidArguments_ReturnsCommand()
     {
         var result = Target(Mock.Of<object>(), Mock.Of<object>());
 

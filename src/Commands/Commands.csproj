@@ -2,13 +2,15 @@
 
     <PropertyGroup>
         <AssemblyName>Paraminter.Recorders.Commands</AssemblyName>
+
+        <RootNamespace>Paraminter.Recorders.Commands</RootNamespace>
         
         <PackageId>Paraminter.Recorders.Commands</PackageId>
         <Description>Provides commands related to Paraminter recorders.</Description>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Paraminter.Commands.Core" />
+        <PackageReference Include="Paraminter.Commands" />
     </ItemGroup>
 
 </Project>

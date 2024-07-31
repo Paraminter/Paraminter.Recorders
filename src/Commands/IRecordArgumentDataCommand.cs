@@ -1,4 +1,6 @@
-﻿namespace Paraminter.Recorders;
+﻿namespace Paraminter.Recorders.Commands;
+
+using Paraminter.Commands;
 
 /// <summary>Represents a command to record data about the argument of a parameter.</summary>
 /// <typeparam name="TParameter">The type representing the parameter.</typeparam>

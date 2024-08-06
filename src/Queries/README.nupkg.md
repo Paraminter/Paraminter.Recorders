@@ -1,5 +1,5 @@
-# Paraminter.Recorders.Commands
+# Paraminter.Recorders.Queries
 
-Defines commands for `Paraminter` recorders.
+Defines queries for `Paraminter` recorders.
 
 See [GitHub](https://github.com/Paraminter/Paraminter.Recorders) for more information.

@@ -6,11 +6,15 @@
         <RootNamespace>Paraminter.Recorders.Commands</RootNamespace>
         
         <PackageId>Paraminter.Recorders.Commands</PackageId>
-        <Description>Provides commands related to Paraminter recorders.</Description>
+        <Description>Defines commands for Paraminter recorders.</Description>
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Paraminter.Arguments.Models" />
         <PackageReference Include="Paraminter.Commands" />
+        <PackageReference Include="Paraminter.Parameters.Models" />
+
+        <ProjectReference Include="$(SolutionDir)\src\Models\Models.csproj" />
     </ItemGroup>
 
 </Project>

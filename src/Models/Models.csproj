@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Paraminter.Recorders.Models</AssemblyName>
+
+        <RootNamespace>Paraminter.Recorders.Models</RootNamespace>
+        
+        <PackageId>Paraminter.Recorders.Models</PackageId>
+        <Description>Defines models for Paraminter recorders.</Description>
+    </PropertyGroup>
+
+</Project>

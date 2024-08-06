@@ -13,8 +13,6 @@
         <PackageReference Include="Paraminter.Arguments.Models" />
         <PackageReference Include="Paraminter.Commands" />
         <PackageReference Include="Paraminter.Parameters.Models" />
-
-        <ProjectReference Include="$(SolutionDir)\src\Models\Models.csproj" />
     </ItemGroup>
 
 </Project>

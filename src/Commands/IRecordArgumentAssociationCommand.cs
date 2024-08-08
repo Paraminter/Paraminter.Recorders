@@ -1,7 +1,7 @@
 ﻿namespace Paraminter.Recorders.Commands;
 
 using Paraminter.Arguments.Models;
-using Paraminter.Commands;
+using Paraminter.Cqs;
 using Paraminter.Parameters.Models;
 
 /// <summary>Represents a command to record an association between an argument and a parameter.</summary>
